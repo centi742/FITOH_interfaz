@@ -1,0 +1,37 @@
+html, body{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+.main-image{
+    position: relative;
+    background: url(../img/banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 250px;
+    overflow: hidden;
+}
+.contenedor{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50, -50);
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contenedor h1{
+    margin: 0;
+    font-size: 70px;
+}
+.contenedor h1 span{
+    border: 6px solid #fff;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.cen{
+    font-size: 26px;
+}
