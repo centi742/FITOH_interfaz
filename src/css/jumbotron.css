@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
 .jumbotron{
     background-color: #efefef;
     padding: 2%;
@@ -5,9 +8,18 @@
 .tema{
     font-weight: bold;
     padding: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
    
 }
 
 .distintivo{
     color: #F65513;
 }
+
+.imgicons{
+    width: 50px;
+    height: 50px;
+}
+ body{
+    font-family: 'Roboto', sans-serif;
+ }
