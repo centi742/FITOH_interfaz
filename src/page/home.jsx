@@ -10,6 +10,11 @@ import "../css/jumbotron.css";
 import breakI from "../icons/break1.png";
 import engine from "../icons/engine1.png";
 import spray from "../icons/spray-paint.png";
+import truck from "../icons/semi.png";
+import car from "../icons/car.png";
+import forklift from "../icons/forklift.png";
+import towtruck from "../icons/tow-truck(1).png";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -42,6 +47,8 @@ const Home = () => {
               soluciones y respuestas acertadas, para lograr tener única y
               exclusivamente clientes satisfechos.
             </p>
+            <center><Button>Visitar</Button></center>
+            <br />
           </Col>
           <Col>
             <Row>
@@ -83,27 +90,63 @@ const Home = () => {
           <br />
           <center>
             <p>
-              Empresa líder de transporte de carga y transporte particular en el
-              país, expertos en transporte de carga garantizando eficiencia,
-              eficacia, seguridad y rentabilidad Empresa especializada en el
-              transporte terrestre de carga.
-              <br />
-              Contactenos somos una empresa que se adapta a procesos
-              administrativos que nos permite proveer servicios especializados
-              de la mejor calidad con el fin de satisfacer todas las necesidades
-              de nuestros clientes.
+              <center>
+                <Col xs={8}>
+                      Empresa líder de transporte de carga y transporte particular en el
+                    país, expertos en transporte de carga garantizando eficiencia,
+                    eficacia, seguridad y rentabilidad Empresa especializada en el
+                    transporte terrestre de carga.
+                  
+                </Col>
+             
+              </center>
             </p>
           </center>
           <Row>
-            <Col><h3 className="tema">Trasporte pesado</h3></Col>
-            <Col><h3 className="tema">Trasporte liviano</h3></Col>
-            <Col><h3 className="tema">Trasporte Industrial</h3></Col>
-            <Col><h3 className="tema">Servicio de Grua</h3></Col>
+            <Col>
+            <Card>
+               <center><img src={truck} alt="cargando..." className="imgIcons"/>
+              <h5 className="tema">Trasporte pesado</h5>
+
+              <p> se traen maquinaria para trabajo pesado como trailers, furgones y camiones</p>
+              </center> 
+              </Card>
+            </Col>
+            <Col>
+            <Card>
+               <center><img src={car} alt="cargando..." className="imgIcons"/>
+              <h5 className="tema">Trasporte liviano</h5>
+
+              <p> se traen maquinaria para trabajo pesado como trailers, furgones y camiones</p>
+              </center> 
+              </Card>
+            </Col>
+            <Col>
+                <Card>
+                  <center><img src={forklift} alt="cargando..." className="imgIcons"/>
+                  <h5 className="tema">Trasporte Industrial</h5>
+
+                  <p> se traen maquinaria para trabajo pesado como trailers, furgones y camiones</p>
+                  </center> 
+               </Card>
+            </Col>
+            <Col>
+            <Card>
+               <center><img src={towtruck} alt="cargando..." className="imgIcons"/>
+              <h5 className="tema">Servicio grua 24 Horas</h5>
+
+              <p> se traen maquinaria para trabajo pesado como trailers, furgones y camiones</p>
+              </center> 
+              </Card>
+            </Col>
           </Row>
-          hola
+        
         </Container>
       </div>
+      
+      <Footer></Footer>
     </Layout>
+    
   );
 };
 

@@ -1,0 +1,14 @@
+.linkDrop {
+    text-decoration: none;
+    color: black;
+}
+
+.linksLayout{
+    text-decoration: none;
+    color: white; 
+}
+
+.linksLayout:hover{
+    background-color: transparent;
+    color: white;
+}

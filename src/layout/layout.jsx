@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import {Link} from "react-router-dom";
 import{Navbar,Container,Nav,NavDropdown} from "react-bootstrap";
-
+import "../css/cssLayout.css"
 
 const Layout=({children})=>{
 
@@ -16,11 +16,12 @@ const Layout=({children})=>{
             <Nav className="me-auto">
               
               <Nav.Link >
-                <Link className="text-white" to="/">home</Link>
+                <Link className="linksLayout" to="/">home</Link>
               </Nav.Link>
-              <Nav.Link><Link className="text-white" to="/Catalogo">Catalogo</Link></Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <Nav.Link><Link className="linksLayout" to="/Catalogo">Catalogo</Link></Nav.Link>
+              <Nav.Link><Link className="linksLayout" to="/Importadora">Importadora</Link></Nav.Link>
+              <NavDropdown title="Menu" id="basic-nav-dropdown">
+                <NavDropdown.Item> <Link  to="/Contacs" className="linkDrop">Contactos</Link></NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action
                 </NavDropdown.Item>

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 .jumbotron{
-    background-color: #efefef;
+    background-color: #F3F3F3;
     padding: 2%;
 }
 .tema{
@@ -22,4 +22,10 @@
 }
  body{
     font-family: 'Roboto', sans-serif;
+ }
+
+ .imgIcons{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
  }
